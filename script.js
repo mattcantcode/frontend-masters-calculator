@@ -63,10 +63,10 @@ function handleSymbol(symbol) {
 }
 
 function handleMaths(symbol) {
-  if (buffer === "0") {
+  /* if (buffer === "0") {
     // do nothing
     return;
-  }
+  } */
 
   const intBuffer = parseInt(buffer);
   if (runningTotal === 0) {
